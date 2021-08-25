@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+  background-color: #e67e22;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-logo {
+  height: 30px;
+}
+
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+*/
+.App-header {
+  background-color: #e67e22;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.menu{
+  margin-top: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.lista{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.item-lista{
+  transform: scale(0.8);
+  align-items: center;
+  margin: 15px;
+  border-radius: 30px;
+  background-color: #34495e;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+}
+
+.item-lista:hover{
+  font-weight: 400;
+  background-color: #7158e2;
+  transition: all 400ms;
+}
+
+.link-lista{
+  text-decoration: none;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.item-lista-trinta{
+  transform: scale(1.2);
+  border-radius: 30px;
+  background-color: #34495e;
+  padding: 15px;
+  margin: 30px 30px;
+}
+.item-lista-sex{
+  transform: scale(1.5);
+  border-radius: 30px;
+  background-color: #34495e;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.item-lista-trinta:hover{
+  font-weight: 400;
+  background-color: #7158e2;
+  transition: all 400ms;
+}
+
+.item-lista-sex:hover{
+  font-weight: 400;
+  background-color: #7158e2;
+  transition: all 400ms;
+}
+.tweet_volume{
+  font-size: 15px;
+  background-color: #61dafb;
+  font-weight: 300;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+}
+.seletor-localizacao{
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  border-radius: 10px;
+  padding-left: 25px;
+  margin-left: auto;
+  margin-right: 10px;
+  background-color: #34495e;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.location{
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.footer{
+  height: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.espaco-lista{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-conte{
+  width: 25px;
+  margin-right: auto;
+  margin-left: 5px;
+}
+.texto-footer{
+  margin-right: 5px;
+  margin-left: auto;
+}
+
+.txt-tt{
+  background-color: #7158e2;
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+/*
+*************************************************************
+  Versão Desktop se diferenciando da versão Mobile.
+*************************************************************
+*/
+
+.mobile{
+  display: none;
+}
+
+@media(max-width:800px){
+  .desktop{
+    display: none;
+  }
+  
+  .mobile{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .lista{
+    margin-top: 100px;
+  }
+  
+ 
+}
+
+
+
+/*
+*************************************************************
+  Área de animações.
+*************************************************************
+*/
+
+/*
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
