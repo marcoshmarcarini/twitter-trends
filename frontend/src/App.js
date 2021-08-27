@@ -54,9 +54,19 @@ function App() {
         <div className="espaco-lista">
             <ul className="lista desktop">
             {trends.map((trend,index) => {
-              if(index <= 20 && trend.tweet_volume != null){
+              if(index <= 30 && trend.tweet_volume != null){
                 switch (trend.tweet_volume != 0){
-                  case (trend.tweet_volume > 10000 && trend.tweet_volume < 30000):
+                  case (trend.tweet_volume < 15000 && trend.tweet_volume != null):
+                    return (
+                      <a href={trend.url} className="link-lista">
+                        <li key={index} className="item-lista-menos-dez" onMouseover="trocarItem()">
+                          <p className="txt-nome">{trend.name}</p>
+                          <p className="txt-tt">{trend.tweet_volume}</p>
+                        </li>
+                      </a>
+                    )
+                  break
+                  case (trend.tweet_volume > 15001 && trend.tweet_volume < 30000):
                     return (
                       <a href={trend.url} className="link-lista">
                         <li key={index} className="item-lista" onMouseover="trocarItem()">
@@ -66,7 +76,7 @@ function App() {
                       </a>
                     )
                   break
-                  case (trend.tweet_volume > 30000 && trend.tweet_volume < 60000):
+                  case (trend.tweet_volume > 30001 && trend.tweet_volume < 50000):
                     return (
                       <a href={trend.url} className="link-lista">
                         <li key={index} className="item-lista-trinta" onMouseover="trocarItem()">
@@ -76,10 +86,20 @@ function App() {
                       </a>
                     )
                   break
-                  case (trend.tweet_volume > 60000):
+                  case (trend.tweet_volume > 50001 && trend.tweet_volume < 80000):
                     return (
-                      <a href={trend.url} className="link-lista-sex">
-                        <li key={index} className="item-lista" onMouseover="trocarItem()">
+                      <a href={trend.url} className="link-lista">
+                        <li key={index} className="item-lista-cincum" onMouseover="trocarItem()">
+                          <p className="txt-nome">{trend.name}</p>
+                          <p className="txt-tt">{trend.tweet_volume}</p>
+                        </li>
+                      </a>
+                    )
+                  break
+                  case (trend.tweet_volume > 80001 && trend.tweet_volume < Infinity ):
+                    return (
+                      <a href={trend.url} className="link-lista">
+                        <li key={index} className="item-lista-six" onMouseover="trocarItem()">
                           <p className="txt-nome">{trend.name}</p>
                           <p className="txt-tt">{trend.tweet_volume}</p>
                         </li>
