@@ -40,7 +40,7 @@ ul {
 
 .menu{
   margin-top: 30px;
-  margin-bottom: -40px;
+  margin-bottom: -160px;
 }
 
 .App-link {
@@ -73,11 +73,12 @@ ul {
   align-items: center;
   margin: 15px;
   border-radius: 15px;
-  background-color: #34495e;
+  /*background-color: #34495e;*/
   padding: 20px;
-  color: #fff;
+  color: #7158e2;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .item-lista{
@@ -85,11 +86,12 @@ ul {
   align-items: center;
   margin: 15px;
   border-radius: 15px;
-  background-color: #34495e;
+  /*background-color: #34495e;*/
   padding: 20px;
-  color: #fff;
+  color: #7158e2;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .item-lista-trinta{
@@ -97,11 +99,12 @@ ul {
   align-items: center;
   margin: 15px;
   border-radius: 15px;
-  background-color: #34495e;
+  /*background-color: #34495e;*/
   padding: 20px;
-  color: #fff;
+  color: #7158e2;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .item-lista-cincum{
@@ -109,51 +112,53 @@ ul {
   align-items: center;
   margin: 15px;
   border-radius: 15px;
-  background-color: #34495e;
+  /*background-color: #34495e;*/
   padding: 20px;
-  color: #fff;
+  color: #7158e2;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 .item-lista-six{
   transform: scale(1.4);
   align-items: center;
   border-radius: 15px;
-  background-color: #34495e;
+  /*background-color: #34495e;*/
   padding:20px;
-  color: #fff;
+  color: #7158e2;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 .item-lista-menos-dez:hover{
-  font-weight: 400;
-  background-color: #7158e2;
+  color: #fff;
+  /*background-color: #7158e2;*/
   transition: all 400ms;
   transform: scale(1);
 }
 .item-lista:hover{
-  font-weight: 400;
-  background-color: #7158e2;
+  color: #fff;
+  /*background-color: #7158e2;*/
   transition: all 400ms;
   transform: scale(1.1);
 }
 
 .item-lista-trinta:hover{
-  font-weight: 400;
-  background-color: #7158e2;
+  color: #fff;
+  /*background-color: #7158e2;*/
   transition: all 400ms;
   transform: scale(1.2);
 }
 
 .item-lista-cincum:hover{
-  font-weight: 400;
-  background-color: #7158e2;
+  color: #fff;
+  /*background-color: #7158e2;*/
   transition: all 400ms;
   transform: scale(1.4);
 }
 .item-lista-six:hover{
-  font-weight: 400;
-  background-color: #7158e2;
+  color: #fff;
+  /*background-color: #7158e2;*/
   transition: all 400ms;
   transform: scale(1.5);
 }
@@ -226,6 +231,9 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 100px;
+}
+.txt-tt:hover{
+  transition: all 400ms;
 }
 
 /*

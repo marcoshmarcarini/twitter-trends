@@ -54,7 +54,7 @@ function App() {
         <div className="espaco-lista">
             <ul className="lista desktop">
             {trends.map((trend,index) => {
-              if(index <= 30 && trend.tweet_volume != null){
+              if(index <= 15 && trend.tweet_volume != null){
                 switch (trend.tweet_volume != 0){
                   case (trend.tweet_volume < 15000 && trend.tweet_volume != null):
                     return (
