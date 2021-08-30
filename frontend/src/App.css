@@ -75,7 +75,7 @@ ul {
   border-radius: 15px;
   /*background-color: #34495e;*/
   padding: 20px;
-  color: #7158e2;
+  color: #ffffff;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -88,7 +88,7 @@ ul {
   border-radius: 15px;
   /*background-color: #34495e;*/
   padding: 20px;
-  color: #7158e2;
+  color: #ffffff;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -101,7 +101,7 @@ ul {
   border-radius: 15px;
   /*background-color: #34495e;*/
   padding: 20px;
-  color: #7158e2;
+  color: #ffffff;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -114,7 +114,7 @@ ul {
   border-radius: 15px;
   /*background-color: #34495e;*/
   padding: 20px;
-  color: #7158e2;
+  color: #ffffff;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -125,46 +125,45 @@ ul {
   border-radius: 15px;
   /*background-color: #34495e;*/
   padding:20px;
-  color: #7158e2;
+  color: #ffffff;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 .item-lista-menos-dez:hover{
-  color: #fff;
+  color: #7158e2;
   /*background-color: #7158e2;*/
   transition: all 400ms;
   transform: scale(1);
 }
 .item-lista:hover{
-  color: #fff;
+  color: #7158e2;
   /*background-color: #7158e2;*/
   transition: all 400ms;
   transform: scale(1.1);
 }
 
 .item-lista-trinta:hover{
-  color: #fff;
+  color: #7158e2;
   /*background-color: #7158e2;*/
   transition: all 400ms;
   transform: scale(1.2);
 }
 
 .item-lista-cincum:hover{
-  color: #fff;
+  color: #7158e2;
   /*background-color: #7158e2;*/
   transition: all 400ms;
   transform: scale(1.4);
 }
 .item-lista-six:hover{
-  color: #fff;
+  color: #7158e2;
   /*background-color: #7158e2;*/
   transition: all 400ms;
   transform: scale(1.5);
 }
 .tweet_volume{
   font-size: 15px;
-  background-color: #61dafb;
   font-weight: 300;
 }
 
@@ -234,6 +233,8 @@ ul {
 }
 .txt-tt:hover{
   transition: all 400ms;
+  background-color: #ffffff;
+  color: #7158e2;
 }
 
 /*
