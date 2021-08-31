@@ -58,15 +58,10 @@ ul {
   margin-top: 200px;
   overflow-y: hidden;
 }
-.lista li{
-  margin: 25px;
-}
 
 .link-lista{
   text-decoration: none;
   color: #fff;
-  margin-right: 35px;
-  margin-left: 20px;
 }
 .item-lista-menos-dez{
   transform: scale(0.6);
@@ -110,7 +105,7 @@ ul {
 .item-lista-cincum{
   transform: scale(1.2);
   align-items: center;
-  margin: 15px;
+  margin: 25px;
   border-radius: 15px;
   /*background-color: #34495e;*/
   padding: 20px;
@@ -123,6 +118,7 @@ ul {
   transform: scale(1.4);
   align-items: center;
   border-radius: 15px;
+  margin: 15px;
   /*background-color: #34495e;*/
   padding:20px;
   color: #ffffff;

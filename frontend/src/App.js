@@ -51,7 +51,7 @@ function App() {
   function listTrends(){
       return (
         <div>
-        <div className="espaco-lista">
+        <div className="espaco-lista container">
             <ul className="lista desktop">
             {trends.map((trend,index) => {
               if(index <= 15 && trend.tweet_volume != null){
@@ -143,7 +143,7 @@ function App() {
             <FaCrosshairs />
         </div>
       </div>
-      <div className="content">{listTrends()}</div>
+      <div className="content mb-5">{listTrends()}</div>
       <div className="footer"><p className="texto-footer">Poweready By</p><img src={conte} className="logo-conte" /></div>
     </div>
   );
